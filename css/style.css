@@ -1,0 +1,258 @@
+:root {
+    --bg-color: #ffffff;
+    --font-color: #000000;
+    --btn-color: #00BAFC;
+  }
+  html{
+      box-sizing: border-box;
+  }
+  *,
+  *::before
+  *::after{
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-display: swap;
+    font-size: 16px;
+    line-height: 1.4;
+   
+  }
+  header{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  .header{
+      width: 100%       ;
+      height: 56px;
+      background: #FFFFFF;
+  }
+  .nav-header{
+    width: 1100px;
+  }
+  .container{
+      width: 1110px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .navbar{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .nav-list{
+      display: flex;
+      list-style-type: none;
+  }
+  .nav-item{
+      margin-left: 30px;
+  }
+  .nav-link{
+      font-size: 16px;
+      text-decoration: none;
+      color: var(--font-color);
+      padding: 22px 7px;
+      transition:  ease 0.3s;
+  }
+  .nav-link:hover{
+      border-bottom: 3px solid black;
+      width: 100px;
+  }
+  .nav-link:active{
+      background-color: black;
+      color: white;
+  }
+
+  .nav-btn{
+      padding: 8px 16px;
+      background-color: var(--btn-color);
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+    
+  }
+  .nav-btn:hover{
+      color: white;
+  }
+  .second-header{
+      display: flex;
+  }
+  .main-text{
+      margin-top: 97px;
+      width: 400px;
+  }
+  .main-title {
+      margin-bottom: 16px;
+  }
+  .main-caption{
+    margin-bottom: 30px;
+  }
+  .btn-service{
+      transition: ease-in-out 0.4s;
+  }
+  .btn-service:hover{
+    background: rgba(0, 186, 252, 0.8);
+    border-radius: 5px;
+  }
+  .btn-service:active{
+    background: rgba(0, 186, 252, 0.6);
+    border-radius: 5px;
+  }
+  .vide-link{
+    margin-top: 97px;
+   
+  }
+.second-header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.service-info{
+    margin-top: 135px;
+    margin-left: 135Px;
+    width: 800px;
+    text-align: center;
+}
+.first-row,.second-row{
+    margin-top: 24px;
+    display: flex;
+}
+.service-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 40px 20px 40px;
+    margin-left: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.card-link{
+    text-decoration: none;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: black;
+    
+}
+.card-content{
+    margin-top: 16px;
+}
+.second-row{
+    margin-top: 48px;
+    margin-left: 170px;
+}
+.service-buttons{
+    margin-top: 48px;
+    text-align: center;
+}
+.service-link{
+    text-decoration: underline;
+    color: #00BAFC;
+    margin-left: 20px;
+}
+.content{
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-text{
+    align-items: center;
+    display: flex;
+}
+.infos{
+    margin-left: 56px;
+}
+.service-text-left{
+    margin-top: 46px;
+    align-items: center;
+    display: flex;
+}
+.infos-left{
+    margin-right: 56px;
+}
+.service-form{
+    background: #00BAFC;
+    padding-bottom: 64px;
+}
+.service-title-form, .service-content-form{
+    color: white;
+}
+.service-info-form{
+    margin-left: auto;
+    margin-top: 135px;
+    margin-left: 135Px;
+    padding-top: 40px;
+    width: 719px;
+    text-align: center;
+}
+.form{
+    margin-top: 24px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 348px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: 400px;
+    text-align: center;
+    border: 1px solid white;
+}
+.user-name, .phone-number, .select {
+    margin-top: 16px;
+}
+.form-btn{
+  margin-top: 16px;
+  border: none  ;
+}
+.service-forms{
+    width: 300px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+}
+.service-forms::placeholder{
+    color: #000000;
+}
+.about-site{
+    width: 320px;
+}
+footer{
+  
+    background: #191919;
+}
+.ft-bg{
+    padding: 56px;
+    display: flex;
+}
+.about-title, .about-text{
+    color: white;
+}
+.footer-navlist{
+    list-style-type: none;
+    margin-left: 130px;
+   
+}
+.footer-nav-link{
+    text-decoration: none;
+    color: white;
+}
+.footer-nav-item{
+    margin-bottom: 10px;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.social-items{
+    margin-left: 10px;
+}
